@@ -77,3 +77,27 @@ body {
   width: 582px;
   height: 669px;
 }
+
+@media (max-width: 1200px) {
+  body {
+    background-color: #b3fb4f;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #container_login {
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+  }
+
+  #container_login input {
+    width: 75%;
+  }
+
+  #container_newsletter {
+    display: none;
+  }
+}
