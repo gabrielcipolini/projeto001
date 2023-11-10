@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  background: #b3fb4f;
+}
+
+#container_login {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 35px 45px;
+  padding: 50px 85px 115px;
+  border-radius: 25px;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#container_login img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+#container_login input {
+  margin-top: 10px;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 320px;
+  height: 55px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+#container_login span {
+  display: flex;
+  justify-content: end;
+}
+
+#container_login span:hover {
+  text-decoration: underline;
+}
+
+#container_login button {
+  margin: 20px auto 0;
+  width: 310px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#container_login button:hover {
+  background: #b3fb4f;
+}
+
+#container_newsletter {
+  background: url(assets/img.jpg) no-repeat top center/cover;
+  width: 582px;
+  height: 669px;
+}
